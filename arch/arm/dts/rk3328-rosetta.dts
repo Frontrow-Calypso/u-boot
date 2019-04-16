@@ -9,8 +9,8 @@
 #include "rk3328-sdram-ddr3-666.dtsi"
 
 / {
-	model = "Firefly ROC-RK3328-CC";
-	compatible = "firefly,roc-rk3328-cc", "rockchip,rk3328";
+	model = "Rosetta RK3328";
+	compatible = "frontrow,rosetta-rk3328", "rockchip,rk3328";
 
 	chosen {
 		stdout-path = &uart2;
